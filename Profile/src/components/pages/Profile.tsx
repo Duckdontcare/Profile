@@ -1,6 +1,8 @@
-import { FaStar , FaGithub , FaFacebook , FaInstagram } from 'react-icons/fa';
+import { FaStar , FaGithub , FaFacebook } from 'react-icons/fa';
 import * as Tooltip from "@radix-ui/react-tooltip";
 
+
+{/* profile */}
 function Skill({ name, level }: { name: string; level: number }) {
   return (
     <div className="flex items-center justify-between border-b py-2">
